@@ -1,0 +1,27 @@
+{
+	"training_data": "datasets/FBDB15K/",
+	"output": "results/",
+	"dataset_division": "721",
+	"gpu_id": "0",
+	"dim": 100,
+	"margin": 1,
+	"neg_triple_num": 1,
+	"learning_rate": 0.001,
+	"optimizer": "Adam",
+	"max_epoch": 200,
+	"start_valid": 0,
+	"eval_freq": 1,
+	"early_stop": false,
+	"batch_size": 5000,
+	"batch_threads_num": 2,
+	"test_threads_num": 4,
+	"ordered": true,
+	"stop_metric": "mrr",
+	"eval_metric": "inner",
+	"top_k": [
+		1,
+		5,
+		10
+	],
+	"eval_norm": true
+}
