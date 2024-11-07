@@ -4,7 +4,9 @@ Codes for paper "Multi-modal Siamese Network for Entity Alignment" published in 
 ## Dataset
 Three public multi-modal knowledge graphs with **relational**, **attribute** and **visual** knowledge from paper "[MMKG: Multi-Modal Knowledge Graphs](https://arxiv.org/abs/1903.05485)", i.e., FB15K, DB15K and YG15K.
 There are **sameAs** links between FB15K and DB15K as well as between FB15K and YG15K, which could be regarded as **alignment** relations. 
-Please click here to download the [original data](https://github.com/nle-ml/mmkb) and [processed data](https://drive.google.com/file/d/1Vdmfru-VxewUww8vJzONMR0pW1_V9h8U/view?usp=drive_link). Permission for processed data needs to be requested on the link. Applicants should provide their name and organization. Once reviewed, we will approve it as soon as possible.
+Please click here to download the [original data](https://github.com/nle-ml/mmkb) and [processed data](https://drive.google.com/file/d/1Vdmfru-VxewUww8vJzONMR0pW1_V9h8U/view?usp=drive_link). Permission for processed data needs to be requested on the link. 
+
+**[Must Read!]** Please note that applicants should provide their name and organization </font>. Once reviewed, we will approve it as soon as possible.
 
 ## Code
 Our codes were modified based on the public benchmark [OpenEA](https://github.com/nju-websoft/OpenEA). We appreciate the authors for making OpenEA open-sourced.
